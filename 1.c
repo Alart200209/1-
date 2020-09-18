@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main()
 {
-	int i = 1;//Минамальное натуральное число 
-	int max = 0;
-	while (i != 0) //Проверка на неравенство с нулем
+	long int i = 1;//Минамальное натуральное число 
+	long int max = 0;
+	while (i>0)  //Проверка на натуральное число
 	{
 		printf("Input number=");
 		scanf("%d", &i);//Ввод числа
@@ -15,4 +15,4 @@ int main()
 	}
 	printf("Max number %d", max);
 	return 0;
-}
+} 
