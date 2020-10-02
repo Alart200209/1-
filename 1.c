@@ -2,17 +2,17 @@
 #include <stdio.h>
 int main()
 {
-	int i = 1;
-	int max = 0;
+	long long int i = 1;
+	long long int max = 0;
 	while (i != 0) 
 	{
 		printf("Input number=");
-		scanf("%d", &i);
+		scanf("%lli", &i);
 		if (i > max)
 		{
 			max = i;
 		}
 	}
-	printf("Max number %d", max);
+	printf("Max number %lli", max);
 	return 0;
 }
