@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main()
 {
-	long int i = 1;//Минамальное натуральное число 
-	long int max = 0;
-	while (i>0)  //Проверка на натуральное число
+	int i = 1;
+	int max = 0;
+	while (i != 0) 
 	{
 		printf("Input number=");
-		scanf("%d", &i);//Ввод числа
+		scanf("%d", &i);
 		if (i > max)
 		{
 			max = i;
@@ -15,4 +15,4 @@ int main()
 	}
 	printf("Max number %d", max);
 	return 0;
-} 
+}
